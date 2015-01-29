@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">Domotica</string>
+    <string name="search">Buscar Dispositivos</string>
+    <string name="searching">Buscando&#8230;</string>
+    <string name="wheelSpeeds">Velocidad de las Ruedas</string>
+    <string name="accelerometer">Accelerometer</string>
+    <string name="commandHint">Introduzca el Comando</string>
+    <string name="send">Enviar</string>
+    <string name="threshold">Umbral</string>
+    <string name="start">Iniciar</string>
+    <string name="stop">Detener</string>
+    <string name="circle">Circle</string>
+    <string name="pairedDevices">Dispositivos Vinculados</string>
+    <string name="availableDevices">Dispositivos Disponibles</string>
+    <string name="cancel">Cancelar</string>
+    <string name="ok">OK</string>
+    <string name="kp">Kp</string>
+    <string name="ki">Ki</string>
+    <string name="kd">Kd</string>
+    <string name="maxSpeed">Velocidad Maxima</string>
+    <string name="leftStop">L: 0</string>
+    <string name="rightStop">R: 0</string>
+    <string name="touchPosition">Touch position</string>
+    <string name="speak">Hablar</string>
+    <string name="data">Datos</string>
+    <string name="clients">Clientes</string>
+    <string name="ip">IP:</string>
+    <string name="serverStart">Iniciar servidor</string>
+    <string name="serverStop">Detener servidor</string>
+        <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="action_settings">Settings</string>
+    <string name="add">ADD</string>
+    <string name="add_room">Add new room</string>
+    <string name="aircon_no_lcd">LCD display not supported</string>
+    <string name="aircon_power_first">Please turn on power first!</string>
+    <string name="auto">AUTO</string>
+    <string name="btn_add_remote">Add remote</string>
+    <string name="btn_add_room">Add room</string>
+    <string name="btn_delete_remote">Delete remote</string>
+    <string name="btn_delete_room">Delete room</string>
+    <string name="btn_edit_remote">Edit remote</string>
+    <string name="btn_edit_room">Edit room</string>
+    <string name="category1">TV</string>
+    <string name="category2">Settop Box</string>
+    <string name="category3">DVD Player</string>
+    <string name="category4">Bluray Player</string>
+    <string name="category5">Audio System</string>
+    <string name="category6">Streaming Box</string>
+    <string name="category7">Projector</string>
+    <string name="category8">DSLR Camera</string>
+    <string name="category9">Air Conditioner</string>
+    <string name="close">close</string>
+    <string name="delete_device">Delete this remote?</string>
+    <string name="delete_room">Delete this room?</string>
+    <string name="edit_device">Edit remote name</string>
+    <string name="edit_room">Edit room name</string>
+    <string name="edittext_empty">Enter name!</string>
+    <string name="finish">Press Back again to quit</string>
+    <string name="htc_new_detected">HTC Sense 6 Detected. If remote controls does not work, please change HTC 6 mode. After change this option, you have to reboot your HTC phone.</string>
+    <string name="input">INPUT</string>
+    <string name="name_changed">Name changed!</string>
+    <string name="noname">NO NAME</string>
+    <string name="open">open</string>
+    <string name="opt_htc2">HTC Sense 6</string>
+    <string name="opt_htc2_desc">After change this option, you have to reboot your HTC phone. Otherwise remote function will not work!</string>
+    <string name="opt_vib">Vibrate on key pressed</string>
+    <string name="page_add_device">Add New Device</string>
+    <string name="page_select_brand">Select Brand</string>
+    <string name="page_select_model">Select Model</string>
+    <string name="remote">Remote</string>
+    <string name="room">Room</string>
+    <string name="search_brand">Search Brand</string>
+    <string name="select_device">Select device you want to control with your ARemote</string>
+
+    <style name="listItem">
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+    </style>
+
+    <style name="title">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="subtitle">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#888888</item>
+    </style>
+
+    <style name="settingsRow">
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ffe3e3e3" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads">
+    <FrameLayout android:id="@id/frameLayout2" android:background="@color/bg_title" android:layout_width="fill_parent" android:layout_height="45.0dip">
+        <TextView android:textColor="@*android:color/white" android:layout_gravity="center" android:id="@id/textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Select Brand" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/frameLayout" android:background="#ffd7d7d7" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/frameLayout2">
+        <FrameLayout android:background="@color/bg_dark2" android:layout_width="fill_parent" android:layout_height="3.0dip">
+            <View android:background="@*android:color/black" android:layout_width="200.0dip" android:layout_height="3.0dip" />
+        </FrameLayout>
+        <EditText android:textColor="#ff333333" android:id="@id/txtFindBrand" android:background="#fff4f4f4" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="6.0dip" android:hint="@string/search_brand" />
+    </FrameLayout>
+    <ListView android:id="@id/lvBrand" android:background="#fff1f1f1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:listSelector="@drawable/lvselector" android:divider="#ffbbbbbb" android:dividerHeight="1.0px" android:layout_above="@id/viewAds" android:layout_below="@id/frameLayout" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" />
+    <FrameLayout android:id="@id/viewAds" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.google.ads.AdView android:layout_gravity="center_horizontal" android:id="@id/adView" android:layout_width="wrap_content" android:layout_height="wrap_content" ads:adUnitId="a153197c7e6a72b" ads:adSize="SMART_BANNER" ads:loadAdOnCreate="true" />
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bg_lightgray" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads">
+    <FrameLayout android:id="@id/viewTitle" android:background="@color/bg_title" android:layout_width="fill_parent" android:layout_height="45.0dip">
+        <TextView android:textColor="#ffffffff" android:layout_gravity="center" android:id="@id/textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Add New Device" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/viewProgress" android:background="@color/bg_dark2" android:layout_width="fill_parent" android:layout_height="3.0dip" android:layout_below="@id/viewTitle">
+        <View android:id="@id/frameLayout2" android:background="@*android:color/black" android:layout_width="100.0dip" android:layout_height="3.0dip" />
+    </FrameLayout>
+    <RelativeLayout android:id="@id/viewAddDevice" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/viewAds" android:layout_below="@id/viewProgress">
+        <LinearLayout android:layout_centerInParent="true" style="@style/linear_vertical">
+            <LinearLayout android:layout_centerHorizontal="true" style="@style/linear_horizontal">
+                <LinearLayout style="@style/linear_vertical">
+                    <ImageButton android:tag="1" android:src="@drawable/ico_tv" style="@style/btn_category" />
+                    <TextView android:text="@string/category1" style="@style/txt_cateogry" />
+                </LinearLayout>
+                <LinearLayout android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" style="@style/linear_vertical">
+                    <ImageButton android:tag="2" android:src="@drawable/ico_settop" style="@style/btn_category" />
+                    <TextView android:text="@string/category2" style="@style/txt_cateogry" />
+                </LinearLayout>
+                <LinearLayout style="@style/linear_vertical">
+                    <ImageButton android:tag="3" android:src="@drawable/ico_dvd" style="@style/btn_category" />
+                    <TextView android:text="@string/category3" style="@style/txt_cateogry" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:id="@id/linearLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:layout_marginBottom="30.0dip" android:layout_centerHorizontal="true" style="@style/linear_horizontal">
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/linear_vertical">
+                    <ImageButton android:tag="4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ico_bluray" style="@style/btn_category" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/category4" style="@style/txt_cateogry" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" style="@style/linear_vertical">
+                    <ImageButton android:tag="5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ico_audio" style="@style/btn_category" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/category5" style="@style/txt_cateogry" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/linear_vertical">
+                    <ImageButton android:tag="6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ico_settop" style="@style/btn_category" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/category6" style="@style/txt_cateogry" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:id="@id/linearLayout2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" style="@style/linear_horizontal">
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/linear_vertical">
+                    <ImageButton android:tag="7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ico_projector" style="@style/btn_category" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/category7" style="@style/txt_cateogry" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" style="@style/linear_vertical">
+                    <ImageButton android:id="@id/imageButton6" android:tag="8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ico_dslr" style="@style/btn_category" />
+                    <TextView android:id="@id/textView7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/category8" style="@style/txt_cateogry" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/linear_vertical">
+                    <ImageButton android:id="@id/imageButton7" android:tag="9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ico_aircon" style="@style/btn_category" />
+                    <TextView android:id="@id/textView8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/category9" style="@style/txt_cateogry" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textColor="#ff737373" android:id="@id/textView9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/select_device" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/viewAds" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.google.ads.AdView android:layout_gravity="center_horizontal" android:id="@id/adView" android:layout_width="wrap_content" android:layout_height="wrap_content" ads:adUnitId="a153197c7e6a72b" ads:adSize="SMART_BANNER" ads:loadAdOnCreate="true" />
+    </FrameLayout>
+</RelativeLayout>

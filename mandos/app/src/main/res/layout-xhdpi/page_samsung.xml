@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/dslr_bg_samsung" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+        <ImageButton android:id="@id/button26" android:tag="8001" android:background="@drawable/btn_samsung_s" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="61.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <ImageButton android:id="@id/button" android:tag="8004" android:background="@drawable/btn_samsung_01_n" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="160.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <ImageButton android:id="@id/button2" android:tag="8003" android:background="@drawable/btn_samsung_01_n" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="132.0dip" android:layout_toLeftOf="@id/button26" />
+        <ImageButton android:id="@id/button3" android:tag="8005" android:background="@drawable/btn_samsung_01_n" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/button26" android:layout_alignTop="@id/button2" />
+        <ImageButton android:id="@id/button4" android:tag="21" android:background="@drawable/btn_samsung_up" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="37.0dip" android:layout_below="@id/button" android:layout_centerHorizontal="true" />
+        <ImageButton android:id="@id/button5" android:tag="24" android:background="@drawable/btn_samsung_down" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/button4" android:layout_alignLeft="@id/button4" />
+        <ImageButton android:id="@id/button6" android:tag="22" android:background="@drawable/btn_samsung_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="35.0dip" android:layout_toLeftOf="@id/button4" android:layout_alignTop="@id/button4" />
+        <ImageButton android:id="@id/button7" android:tag="23" android:background="@drawable/btn_samsung_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/button4" android:layout_alignTop="@id/button6" />
+    </RelativeLayout>
+</RelativeLayout>

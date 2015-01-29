@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bg_dialog" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="#ff4f4f4f" android:layout_gravity="center_horizontal" android:id="@id/txtTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/edit_device" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <EditText android:textColor="#ff333333" android:id="@id/txtEdit" android:background="#fff2f2f2" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="8.0dip" android:layout_below="@id/txtTitle" android:layout_centerHorizontal="true" />
+        <Button android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/btnDialogOk" android:background="@drawable/btn_lightred" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="10.0dip" android:text="@string/ok" android:layout_below="@id/txtEdit" android:layout_centerHorizontal="true" />
+    </LinearLayout>
+</RelativeLayout>

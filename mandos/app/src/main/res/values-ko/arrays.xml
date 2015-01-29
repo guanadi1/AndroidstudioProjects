@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="device_array">
+        <item>TV</item>
+        <item>셋톱 박스</item>
+        <item>DVD 플레이어</item>
+        <item>Bluray 플레이어</item>
+        <item>오디오 시스템</item>
+        <item>스트리밍 박스</item>
+        <item>프로젝터</item>
+        <item>DSLR 카메라</item>
+        <item>에어컨</item>
+    </string-array>
+</resources>

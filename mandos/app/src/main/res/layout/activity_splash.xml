@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bg_title" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="50.0dip" android:layout_marginBottom="10.0dip">
+        <ImageView android:id="@id/imgRaon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/splash_raon" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="35.0dip" android:layout_above="@id/imgNav" android:layout_centerHorizontal="true">
+            <ImageView android:id="@id/imgSmart" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:src="@drawable/splash_smart" />
+            <ImageView android:id="@id/imgRemote" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@drawable/splash_remote" android:layout_toRightOf="@id/imgSmart" />
+        </RelativeLayout>
+        <ImageView android:id="@id/imgNav" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/splash_navi" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

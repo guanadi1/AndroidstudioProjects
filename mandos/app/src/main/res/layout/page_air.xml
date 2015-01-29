@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:id="@id/viewLCD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2.0dip">
+
+        <ImageView
+            android:id="@id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bg_air_panel" />
+
+        <LinearLayout
+            android:id="@id/viewMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15.0dip">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/viewLCD"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imgMode0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:background="@drawable/air_mode_auto" />
+            <TextView
+                android:id="@+id/interiorTop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="INTERIOR"
+                android:textColor="#ff8c8c8c"
+                android:textSize="8.0sp"
+                android:textStyle="bold"
+                android:layout_marginTop="-15.0dip" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/viewLCD"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imageButton21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:background="@drawable/air_mode_auto" />
+
+          <TextView
+                android:id="@+id/exteriorTop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="EXTERIOR"
+                android:textColor="#FF8C8C8C"
+              android:textSize="8.0sp"
+              android:textStyle="bold"
+                android:layout_marginTop="-15.0dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/viewLCD"
+            android:orientation="vertical">
+
+        <ImageButton
+                android:id="@+id/imgMode1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:background="@drawable/air_mode_cool" />
+
+            <TextView
+                android:id="@+id/ventiladorTop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="VENTILADOR"
+                android:textColor="#FF8C8C8C"
+                android:textSize="8.0sp"
+                android:textStyle="bold"
+                android:layout_marginTop="-15.0dip" />
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@id/viewMode1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/imageView2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@id/imageView2">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="false"
+                android:layout_alignParentLeft="false"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginTop="30.0dip">
+
+                <ImageView
+                    android:id="@id/imgFan0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/air_fan_sel" />
+
+                <ImageView
+                    android:id="@id/imgFan1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/air_fan_sel" />
+
+                <ImageView
+                    android:id="@+id/imgFan2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/air_fan_sel" />
+
+                <TextView
+                    android:id="@id/txtFanAuto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="4.0dip"
+                    android:text="@string/auto"
+                    android:textColor="#ffebf387"
+                    android:textSize="9.0sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="false"
+                android:layout_marginRight="25.0dip">
+
+                <TextView
+                    android:id="@+id/txtTemp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="25"
+                    android:textColor="#ff03f0ff"
+                    android:textSize="70.0dip" />
+
+                <ImageView
+                    android:id="@id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5.0dip"
+                    android:background="@drawable/air_temp_c"
+                    android:baselineAlignBottom="true" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@id/txtNoLcd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/aircon_no_lcd"
+            android:textColor="#ffacb083"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/viewLCD"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8.0dip"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/btn_circle1"
+            android:src="@drawable/btn_power"
+            android:tag="33"
+            android:layout_marginTop="18.0dip" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/viewLCD"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/exterior"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="EXTERIOR"
+                android:textColor="#ffffffff"
+                android:textStyle="bold"
+
+                android:textSize="15.0dip" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="25.0dip"
+                android:layout_marginRight="25.0dip"
+                android:background="@drawable/btn_circle1"
+                android:src="@drawable/btn_mode"
+                android:tag="205" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/viewLCD"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/exterior"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="VENTILADOR"
+                android:textColor="#ffffffff"
+                android:textSize="15.0dip"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@id/imageButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+
+                android:background="@drawable/btn_circle1"
+                android:src="@drawable/btn_mode"
+                android:tag="203" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8.0dip">
+
+        <RelativeLayout
+            android:id="@id/layoutButtons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true">
+
+
+            <LinearLayout
+                android:id="@+id/imageButton11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/viewLCD"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/interior"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="INTERIOR"
+                    android:textColor="#ffffffff"
+                    android:textStyle="bold"
+                    android:textSize="16.0dip" />
+
+            <ImageButton
+                android:id="@+id/imageButton11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_round1"
+                android:src="@drawable/btn_ON"
+                android:tag="201" />
+
+            </LinearLayout>
+
+
+            <ImageButton
+                android:id="@+id/imageButton12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18.0dip"
+                android:layout_marginLeft="10.0dip"
+                android:layout_toRightOf="@id/imageButton11"
+                android:background="@drawable/btn_round1"
+                android:src="@drawable/btn_ON"
+                android:tag="200" />
+
+            <ImageButton
+                android:id="@+id/imageButton13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageButton11"
+                android:layout_marginTop="20.0dip"
+                android:background="@drawable/btn_round1"
+                android:src="@drawable/btn_OFF"
+                android:tag="204" />
+
+            <ImageButton
+                android:id="@+id/imageButton14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/imageButton12"
+                android:layout_alignTop="@id/imageButton13"
+                android:background="@drawable/btn_round1"
+                android:src="@drawable/btn_OFF"
+                android:tag="211" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@id/relativeLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_toRightOf="@id/layoutButtons">
+
+            <ImageView
+                android:id="@id/bgvol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="false"
+                android:layout_centerVertical="true"
+                android:src="@drawable/bg_temp" />
+
+            <ImageButton
+                android:id="@id/imageButton16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@id/bgvol"
+                android:layout_alignLeft="@id/bgvol"
+                android:layout_alignTop="@id/bgvol"
+                android:background="@drawable/btn_circle2"
+                android:src="@drawable/btn_plus"
+                android:tag="208" />
+
+            <ImageButton
+                android:id="@id/imageButton17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/bgvol"
+                android:layout_alignLeft="@id/bgvol"
+                android:background="@drawable/btn_circle2"
+                android:src="@drawable/btn_minus"
+                android:tag="209" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

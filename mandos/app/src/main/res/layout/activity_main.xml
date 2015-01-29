@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/viewMain" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads">
+    <RelativeLayout android:id="@id/viewRoot" android:background="@drawable/bg_lightgray" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false">
+        <FrameLayout android:id="@id/viewLed" android:background="@drawable/bg_led" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_below="@id/topbar" />
+        <RelativeLayout android:id="@id/topbar" android:background="@color/bg_title" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageButton android:id="@id/btnMenu" android:tag="9" android:background="@*android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_option" />
+            <Spinner android:id="@id/spinnerDev" android:layout_marginLeft="4.0dip" android:layout_marginRight="2.0dip" android:layout_toLeftOf="@id/btnCast" android:layout_toRightOf="@id/spinnerRoom" style="@style/spinnerStyle" />
+            <Spinner android:id="@id/spinnerRoom" android:layout_width="90.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_toRightOf="@id/btnMenu" style="@style/spinnerStyle" />
+            <ImageButton android:id="@id/btnCast" android:tag="3" android:background="@*android:color/transparent" android:paddingLeft="5.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_ico_add" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <FrameLayout android:id="@id/viewRemo" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="10.0dip" android:layout_above="@id/viewAds" android:layout_below="@id/txtBrand" android:splitMotionEvents="false" />
+        <FrameLayout android:id="@id/viewAds" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <com.google.ads.AdView android:layout_gravity="center_horizontal" android:id="@id/adView" android:layout_width="wrap_content" android:layout_height="wrap_content" ads:adUnitId="ca-app-pub-6278344591307296/8420954168" ads:adSize="SMART_BANNER" ads:testDevices="EE2829DD2DE3542E3DD04C597873038B" ads:loadAdOnCreate="true" />
+        </FrameLayout>
+        <TextView android:textSize="18.0sp" android:typeface="sans" android:textStyle="bold" android:textColor="#77000000" android:layout_gravity="center_horizontal" android:id="@id/txtBrand" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="BRAND" android:layout_below="@id/topbar" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:id="@id/viewNoDevice" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/topbar">
+            <ImageView android:id="@id/imageView5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="153.0dip" android:src="@drawable/noremote" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+            <Button android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/button" android:tag="3" android:background="@drawable/btn_lightred" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:layout_marginTop="50.0dip" android:layout_marginRight="50.0dip" android:text="@string/add" android:layout_below="@id/imageView5" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/optmenu" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <Button android:id="@id/btnCloseMenu" android:tag="99" android:background="@color/bg_optmenu" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <RelativeLayout android:id="@id/viewOpt0" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip">
+                    <TextView android:textSize="16.0sp" android:textColor="#ffd9d9d9" android:id="@id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/remote" />
+                    <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/txtDevName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="TV - Samsung" android:shadowColor="@*android:color/black" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="3.0" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip">
+                    <LinearLayout android:orientation="vertical" android:id="@id/btnOptDel0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+                        <ImageButton android:tag="1" android:src="@drawable/btn_optdel" style="@style/btn_opts" />
+                        <TextView android:id="@id/textView" android:text="@string/btn_delete_remote" style="@style/txt_optmenu" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/btnOptEdit0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+                        <ImageButton android:tag="2" android:src="@drawable/btn_optedit" style="@style/btn_opts" />
+                        <TextView android:id="@id/textView2" android:text="@string/btn_edit_remote" style="@style/txt_optmenu" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/btnOptAdd0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+                        <ImageButton android:tag="3" android:src="@drawable/btn_optadd" style="@style/btn_opts" />
+                        <TextView android:id="@id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn_add_remote" style="@style/txt_optmenu" />
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/viewOpt1" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="50.0dip" android:layout_below="@id/viewOpt0" android:layout_alignParentRight="false">
+                <LinearLayout android:orientation="horizontal" android:id="@id/linearLayout" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+                    <TextView android:textSize="16.0sp" android:textColor="#ffd9d9d9" android:id="@id/textView8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/room" />
+                    <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/txtRoomName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="Living Room" android:shadowColor="@*android:color/black" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="3.0" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:layout_alignParentRight="true">
+                    <LinearLayout android:orientation="vertical" android:id="@id/btnOptDel1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+                        <ImageButton android:tag="4" android:src="@drawable/btn_optdel" style="@style/btn_opts" />
+                        <TextView android:id="@id/textView5" android:text="@string/btn_delete_room" style="@style/txt_optmenu" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/btnOptEdit1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+                        <ImageButton android:tag="5" android:src="@drawable/btn_optedit" style="@style/btn_opts" />
+                        <TextView android:id="@id/textView6" android:text="@string/btn_edit_room" style="@style/txt_optmenu" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/btnOptAdd1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+                        <ImageButton android:tag="6" android:src="@drawable/btn_optadd" style="@style/btn_opts" />
+                        <TextView android:id="@id/textView7" android:text="@string/btn_add_room" style="@style/txt_optmenu" />
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="40.0dip" android:layout_marginRight="20.0dip" android:layout_below="@id/viewOpt1">
+                <Switch android:textColor="@*android:color/white" android:layout_gravity="right" android:id="@id/switch0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/opt_vib" />
+                <Switch android:textColor="@*android:color/white" android:layout_gravity="right" android:id="@id/switch1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/opt_htc2" />
+                <TextView android:textSize="11.0dip" android:layout_gravity="right" android:id="@id/textView9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/opt_htc2_desc" android:layout_below="@id/viewOpt3" android:layout_centerHorizontal="true" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

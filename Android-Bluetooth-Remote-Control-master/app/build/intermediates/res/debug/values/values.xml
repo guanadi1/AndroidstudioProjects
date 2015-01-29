@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/diego/AndroidstudioProjects/Android-Bluetooth-Remote-Control-master/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="abc_search_url_text_normal">#ff7fa87f</color>
+    <item name="abc_search_url_text_pressed" type="color">@*android:color/black</item>
+    <item name="abc_search_url_text_selected" type="color">@*android:color/black</item>
+    <color name="bg_dark">#ff404040</color>
+    <color name="bg_dark2">#ff666666</color>
+    <color name="bg_light">#ffd2dbdb</color>
+    <color name="bg_optmenu">#e0444444</color>
+    <color name="bg_title">#ffdb7074</color>
+    <color name="bg_title2">#ffffbab2</color>
+    <color name="bgcolor_selectbrand">#ffbcbcbc</color>
+    <color name="btndark_pressed">#ff555555</color>
+    <color name="btnlightred">#ffda6f6f</color>
+    <color name="btnlightred_pressed">#55da6f6f</color>
+    <color name="transparent">#00000000</color>
+    <!-- From: file:/Users/diego/AndroidstudioProjects/Android-Bluetooth-Remote-Control-master/app/src/main/res/values/drawables.xml -->
+    <eat-comment/>
+    <item name="focused" type="drawable">#ffa5a3aa</item>
+    <item name="selected" type="drawable">#ffff00ff</item>
+    <!-- From: file:/Users/diego/AndroidstudioProjects/Android-Bluetooth-Remote-Control-master/app/src/main/res/values/ids.xml -->
+    <eat-comment/>
+    <item name="action_bar" type="id">false</item>
+    <item name="action_bar_activity_content" type="id"/>
+    <item name="action_bar_container" type="id">false</item>
+    <item name="action_bar_overlay_layout" type="id">false</item>
+    <item name="action_bar_root" type="id">false</item>
+    <item name="action_bar_subtitle" type="id">false</item>
+    <item name="action_bar_title" type="id">false</item>
+    <item name="action_context_bar" type="id">false</item>
+    <item name="action_menu_divider" type="id"/>
+    <item name="action_menu_presenter" type="id"/>
+    <item name="action_mode_close_button" type="id">false</item>
+    <item name="action_settings" type="id">false</item>
+    <item name="activity_chooser_view_content" type="id">false</item>
+    <item name="adView" type="id">false</item>
+    <item name="audio1" type="id">false</item>
+    <item name="audio2" type="id">false</item>
+    <item name="audio3" type="id">false</item>
+    <item name="audio4" type="id">false</item>
+    <item name="audio5" type="id">false</item>
+    <item name="audio6" type="id">false</item>
+    <item name="bgChann" type="id">false</item>
+    <item name="bgvol" type="id">false</item>
+    <item name="btnCast" type="id">false</item>
+    <item name="btnCloseMenu" type="id">false</item>
+    <item name="btnDialogOk" type="id">false</item>
+    <item name="btnMenu" type="id">false</item>
+    <item name="btnModelSelected" type="id">false</item>
+    <item name="btnNum0" type="id">false</item>
+    <item name="btnNum1" type="id">false</item>
+    <item name="btnNum11" type="id">false</item>
+    <item name="btnNum12" type="id">false</item>
+    <item name="btnNum2" type="id">false</item>
+    <item name="btnNum3" type="id">false</item>
+    <item name="btnNum4" type="id">false</item>
+    <item name="btnNum5" type="id">false</item>
+    <item name="btnNum6" type="id">false</item>
+    <item name="btnNum7" type="id">false</item>
+    <item name="btnNum8" type="id">false</item>
+    <item name="btnNum9" type="id">false</item>
+    <item name="btnOptAdd0" type="id">false</item>
+    <item name="btnOptAdd1" type="id">false</item>
+    <item name="btnOptDel0" type="id">false</item>
+    <item name="btnOptDel1" type="id">false</item>
+    <item name="btnOptEdit0" type="id">false</item>
+    <item name="btnOptEdit1" type="id">false</item>
+    <item name="btnPageLeft" type="id">false</item>
+    <item name="btnPageRight" type="id">false</item>
+    <item name="button" type="id">false</item>
+    <item name="button2" type="id">false</item>
+    <item name="button26" type="id">false</item>
+    <item name="button27" type="id">false</item>
+    <item name="button3" type="id">false</item>
+    <item name="button4" type="id">false</item>
+    <item name="button5" type="id">false</item>
+    <item name="button6" type="id">false</item>
+    <item name="button7" type="id">false</item>
+    <item name="button8" type="id">false</item>
+    <item name="checkbox" type="id">false</item>
+    <item name="default_activity_button" type="id">false</item>
+    <item name="edit_query" type="id">false</item>
+    <item name="expand_activities_button" type="id">false</item>
+    <item name="expanded_menu" type="id">false</item>
+    <item name="frameLayout" type="id">false</item>
+    <item name="frameLayout2" type="id">false</item>
+    <item name="frameLayout3" type="id">false</item>
+    <item name="home" type="id"/>
+    <item name="icon" type="id">false</item>
+    <item name="image" type="id">false</item>
+    <item name="imageButton" type="id">false</item>
+    <item name="imageButton10" type="id">false</item>
+    <item name="imageButton11" type="id">false</item>
+    <item name="imageButton12" type="id">false</item>
+    <item name="imageButton13" type="id">false</item>
+    <item name="imageButton14" type="id">false</item>
+    <item name="imageButton15" type="id">false</item>
+    <item name="imageButton16" type="id">false</item>
+    <item name="imageButton17" type="id">false</item>
+    <item name="imageButton18" type="id">false</item>
+    <item name="imageButton19" type="id">false</item>
+    <item name="imageButton2" type="id">false</item>
+    <item name="imageButton20" type="id">false</item>
+    <item name="imageButton3" type="id">false</item>
+    <item name="imageButton4" type="id">false</item>
+    <item name="imageButton5" type="id">false</item>
+    <item name="imageButton6" type="id">false</item>
+    <item name="imageButton7" type="id">false</item>
+    <item name="imageButton8" type="id">false</item>
+    <item name="imageButton9" type="id">false</item>
+    <item name="imageView" type="id">false</item>
+    <item name="imageView2" type="id">false</item>
+    <item name="imageView3" type="id">false</item>
+    <item name="imageView4" type="id">false</item>
+    <item name="imageView5" type="id">false</item>
+    <item name="imageView6" type="id">false</item>
+    <item name="imageView7" type="id">false</item>
+    <item name="imgFan0" type="id">false</item>
+    <item name="imgFan1" type="id">false</item>
+    <item name="imgFan2" type="id">false</item>
+    <item name="imgLeftRight" type="id">false</item>
+    <item name="imgMode0" type="id">false</item>
+    <item name="imgMode1" type="id">false</item>
+    <item name="imgMode2" type="id">false</item>
+    <item name="imgMode3" type="id">false</item>
+    <item name="imgMode4" type="id">false</item>
+    <item name="imgNav" type="id">false</item>
+    <item name="imgPadNavi" type="id">false</item>
+    <item name="imgRaon" type="id">false</item>
+    <item name="imgRemote" type="id">false</item>
+    <item name="imgSmart" type="id">false</item>
+    <item name="imgTopDown" type="id">false</item>
+    <item name="imgVolume" type="id">false</item>
+    <item name="layoutButtons" type="id">false</item>
+    <item name="linearLayout" type="id">false</item>
+    <item name="linearLayout2" type="id">false</item>
+    <item name="list_item" type="id">false</item>
+    <item name="lvBrand" type="id">false</item>
+    <item name="optmenu" type="id">false</item>
+    <item name="pagerModel" type="id">false</item>
+    <item name="progress_circular" type="id"/>
+    <item name="progress_horizontal" type="id"/>
+    <item name="radio" type="id">false</item>
+    <item name="relativeLayout" type="id">false</item>
+    <item name="relativeLayout2" type="id">false</item>
+    <item name="relativeLayout3" type="id">false</item>
+    <item name="relativeLayout4" type="id">false</item>
+    <item name="relativeLayout5" type="id">false</item>
+    <item name="search_badge" type="id">false</item>
+    <item name="search_bar" type="id">false</item>
+    <item name="search_button" type="id">false</item>
+    <item name="search_close_btn" type="id">false</item>
+    <item name="search_edit_frame" type="id">false</item>
+    <item name="search_go_btn" type="id">false</item>
+    <item name="search_mag_icon" type="id">false</item>
+    <item name="search_plate" type="id">false</item>
+    <item name="search_src_text" type="id">false</item>
+    <item name="search_voice_btn" type="id">false</item>
+    <item name="shortcut" type="id">false</item>
+    <item name="spinnerDev" type="id">false</item>
+    <item name="spinnerRoom" type="id">false</item>
+    <item name="split_action_bar" type="id">false</item>
+    <item name="submit_area" type="id">false</item>
+    <item name="switch0" type="id">false</item>
+    <item name="switch1" type="id">false</item>
+    <item name="textView" type="id">false</item>
+    <item name="textView2" type="id">false</item>
+    <item name="textView3" type="id">false</item>
+    <item name="textView4" type="id">false</item>
+    <item name="textView5" type="id">false</item>
+    <item name="textView6" type="id">false</item>
+    <item name="textView7" type="id">false</item>
+    <item name="textView8" type="id">false</item>
+    <item name="textView9" type="id">false</item>
+    <item name="title" type="id">false</item>
+    <item name="top_action_bar" type="id">false</item>
+    <item name="topbar" type="id">false</item>
+    <item name="txtBrand" type="id">false</item>
+    <item name="txtCount" type="id">false</item>
+    <item name="txtDesc" type="id">false</item>
+    <item name="txtDevName" type="id">false</item>
+    <item name="txtDrop" type="id">false</item>
+    <item name="txtEdit" type="id">false</item>
+    <item name="txtFanAuto" type="id">false</item>
+    <item name="txtFindBrand" type="id">false</item>
+    <item name="txtModelSel" type="id">false</item>
+    <item name="txtNoLcd" type="id">false</item>
+    <item name="txtRoom" type="id">false</item>
+    <item name="txtRoomName" type="id">false</item>
+    <item name="txtTemp" type="id">false</item>
+    <item name="txtTitle" type="id">false</item>
+    <item name="txtType" type="id">false</item>
+    <item name="txtbrand" type="id">false</item>
+    <item name="up" type="id">false</item>
+    <item name="vPower" type="id">false</item>
+    <item name="viewAddDevice" type="id">false</item>
+    <item name="viewAds" type="id">false</item>
+    <item name="viewAircon" type="id">false</item>
+    <item name="viewAudio" type="id">false</item>
+    <item name="viewAudio1" type="id">false</item>
+    <item name="viewBasic" type="id">false</item>
+    <item name="viewCenter" type="id">false</item>
+    <item name="viewChan" type="id">false</item>
+    <item name="viewLCD" type="id">false</item>
+    <item name="viewLed" type="id">false</item>
+    <item name="viewMain" type="id">false</item>
+    <item name="viewMode" type="id">false</item>
+    <item name="viewMode1" type="id">false</item>
+    <item name="viewNavi" type="id">false</item>
+    <item name="viewNaviNumpad" type="id">false</item>
+    <item name="viewNoDevice" type="id">false</item>
+    <item name="viewNumpad" type="id">false</item>
+    <item name="viewOpt0" type="id">false</item>
+    <item name="viewOpt1" type="id">false</item>
+    <item name="viewOpt3" type="id">false</item>
+    <item name="viewProgress" type="id">false</item>
+    <item name="viewProj0" type="id">false</item>
+    <item name="viewProjector" type="id">false</item>
+    <item name="viewRGBY" type="id">false</item>
+    <item name="viewRemo" type="id">false</item>
+    <item name="viewRemoteTest" type="id">false</item>
+    <item name="viewRoot" type="id">false</item>
+    <item name="viewTV" type="id">false</item>
+    <item name="viewTV1" type="id">false</item>
+    <item name="viewTitle" type="id">false</item>
+    <item name="viewVol" type="id">false</item>
+    <item name="viewoff" type="id">false</item>
+    <!-- From: file:/Users/diego/AndroidstudioProjects/Android-Bluetooth-Remote-Control-master/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="accelerometer">Accelerometer</string>
+    <string name="action_settings">Settings</string>
+    <string name="add">ADD</string>
+    <string name="add_room">Add new room</string>
+    <string name="aircon_no_lcd">LCD display not supported</string>
+    <string name="aircon_power_first">Please turn on power first!</string>
+    <string name="app_name">Domotica</string>
+    <string name="auto">AUTO</string>
+    <string name="availableDevices">Dispositivos Disponibles</string>
+    <string name="btn_add_remote">Add remote</string>
+    <string name="btn_add_room">Add room</string>
+    <string name="btn_delete_remote">Delete remote</string>
+    <string name="btn_delete_room">Delete room</string>
+    <string name="btn_edit_remote">Edit remote</string>
+    <string name="btn_edit_room">Edit room</string>
+    <string name="cancel">Cancelar</string>
+    <string name="category1">TV</string>
+    <string name="category2">Settop Box</string>
+    <string name="category3">DVD Player</string>
+    <string name="category4">Bluray Player</string>
+    <string name="category5">Audio System</string>
+    <string name="category6">Streaming Box</string>
+    <string name="category7">Projector</string>
+    <string name="category8">DSLR Camera</string>
+    <string name="category9">Air Conditioner</string>
+    <string name="circle">Circle</string>
+    <string name="clients">Clientes</string>
+    <string name="close">close</string>
+    <string name="commandHint">Introduzca el Comando</string>
+    <string name="data">Datos</string>
+    <string name="delete_device">Delete this remote?</string>
+    <string name="delete_room">Delete this room?</string>
+    <string name="edit_device">Edit remote name</string>
+    <string name="edit_room">Edit room name</string>
+    <string name="edittext_empty">Enter name!</string>
+    <string name="finish">Press Back again to quit</string>
+    <string name="htc_new_detected">HTC Sense 6 Detected. If remote controls does not work, please change HTC 6 mode. After change this option, you have to reboot your HTC phone.</string>
+    <string name="input">INPUT</string>
+    <string name="ip">IP:</string>
+    <string name="kd">Kd</string>
+    <string name="ki">Ki</string>
+    <string name="kp">Kp</string>
+    <string name="leftStop">L: 0</string>
+    <string name="maxSpeed">Velocidad Maxima</string>
+    <string name="name_changed">Name changed!</string>
+    <string name="noname">NO NAME</string>
+    <string name="ok">OK</string>
+    <string name="open">open</string>
+    <string name="opt_htc2">HTC Sense 6</string>
+    <string name="opt_htc2_desc">After change this option, you have to reboot your HTC phone. Otherwise remote function will not work!</string>
+    <string name="opt_vib">Vibrate on key pressed</string>
+    <string name="page_add_device">Add New Device</string>
+    <string name="page_select_brand">Select Brand</string>
+    <string name="page_select_model">Select Model</string>
+    <string name="pairedDevices">Dispositivos Vinculados</string>
+    <string name="remote">Remote</string>
+    <string name="rightStop">R: 0</string>
+    <string name="room">Room</string>
+    <string name="search">Buscar Dispositivos</string>
+    <string name="search_brand">Search Brand</string>
+    <string name="searching">Buscando…</string>
+    <string name="select_device">Select device you want to control with your ARemote</string>
+    <string name="send">Enviar</string>
+    <string name="serverStart">Iniciar servidor</string>
+    <string name="serverStop">Detener servidor</string>
+    <string name="speak">Hablar</string>
+    <string name="start">Iniciar</string>
+    <string name="stop">Detener</string>
+    <string name="threshold">Umbral</string>
+    <string name="touchPosition">Touch position</string>
+    <string name="wheelSpeeds">Velocidad de las Ruedas</string>
+    <style name="listItem">
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+    </style>
+    <style name="settingsRow">
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+    </style>
+    <style name="subtitle">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#888888</item>
+    </style>
+    <style name="title">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+</resources>
