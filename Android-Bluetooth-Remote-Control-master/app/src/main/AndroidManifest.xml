@@ -67,6 +67,11 @@
             android:label="Mando"
             android:screenOrientation="portrait" >
         </activity>
+        <activity
+            android:name=".activities.LedRgb"
+            android:label="LedRgb"
+            android:screenOrientation="portrait" >
+        </activity>
 
     </application>
 

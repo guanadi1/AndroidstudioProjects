@@ -46,7 +46,9 @@ public class ActionListActivity extends BluetoothActivity
 		lvActionList = (ListView) findViewById(R.id.lvActionList);
 
 		// Remote control activities
-		activityList.add(new Action("Controles ", "Enviar comandos personalizados por serial", "Mando"));
+        activityList.add(new Action("LedRgb", "Cambia de color led rgb", "LedRgb"));
+
+        activityList.add(new Action("Controles", "Mando envia datos por serial", "Mando"));
 
 		//activityList.add(new Action("Accelerometer Control", "Control your robot by tilting the phone", "AccelerometerControl"));
 		//activityList.add(new Action("Touch Control", "Control robot's movements by touch", "TouchControl"));
@@ -62,7 +64,7 @@ public class ActionListActivity extends BluetoothActivity
 		
 		// TODO: Organize this into better categories
 		// Miscellaneous
-		activityList.add(new Action("Enviar Comandos ", "Enviar comandos personalizados por serial", "SendData"));
+		activityList.add(new Action("Enviar Comandos", "Enviar comandos personalizados por serial", "SendData"));
 		// Maybe put this one in the API
 		//activityList.add(new Action("Transmit Data", "Transmit data over Wi-Fi via a GET requests", "TransmitData"));
 		//activityList.add(new Action("Sound", "Make sounds by toggling the motor direction", "Sound"));
