@@ -18,7 +18,9 @@ public class LedRgb extends BluetoothActivity {
     SeekBar controlRed;
     SeekBar controlGreen;
     SeekBar controlBlue;
-
+    String redString;
+    String greenString;
+    String blueString;
     int red=0;
     int green=0;
     int blue=0;
@@ -41,7 +43,26 @@ public class LedRgb extends BluetoothActivity {
 
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser){
                 red = progress;
+                
                 write(red+","+green+","+blue+"," + "0,0,0\n");
+           
+                if (red <= 15) {
+                redString = '0' + Integer.toHexString(red);
+                 }else{
+                redString = Integer.toHexString(red);
+                 }
+               if (green <= 15){
+                greenString = '0' + Integer.toHexString(green);
+                 }else{
+                greenString = Integer.toHexString(green);
+                 }
+                if (blue <= 15) {
+                blueString = '0' + Integer.toHexString(blue);
+               } else {
+                blueString = Integer.toHexString(blue);
+              }
+              
+              hexvalue = ("#" + redString + greenString + blueString);
             }
 
             public void onStartTrackingTouch(SeekBar seekBar) {
