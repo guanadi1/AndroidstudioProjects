@@ -41,7 +41,7 @@ public class LedRgb extends BluetoothActivity {
 
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser){
                 red = progress;
-                write(red+","+green+","+blue+"\n");
+                write(red+","+green+","+blue+"," + "0,0,0\n");
             }
 
             public void onStartTrackingTouch(SeekBar seekBar) {
@@ -57,7 +57,7 @@ public class LedRgb extends BluetoothActivity {
 
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser){
                 green = progress;
-                write(red+","+green+","+blue+"\n");
+                write(red+","+green+","+blue+"," + "0,0,0\n");
             }
 
             public void onStartTrackingTouch(SeekBar seekBar) {
@@ -73,7 +73,7 @@ public class LedRgb extends BluetoothActivity {
 
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser){
                 blue = progress;
-                write(red+","+green+","+blue+"."+"\n");
+                write(red+","+green+","+blue+"," + "0,0,0\n");
             }
 
             public void onStartTrackingTouch(SeekBar seekBar) {
